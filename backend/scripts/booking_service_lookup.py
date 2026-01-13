@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load service catalog
-catalog = pd.read_csv("C:/Users/Awoleye/ecom_chatbot/data/service_catalog.csv")
+catalog = pd.read_csv("../data/service_catalog.csv")
 
 def find_by_name(name):
     name = name.lower()
