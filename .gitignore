@@ -1,0 +1,42 @@
+# Ignore trained ML models
+model/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+
+# Ignore build and distribution directories
+build/
+dist/
+*.egg-info/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore complete subfolders
+backend/data/multiwoz/
+backend/data/base_dataset/
+backend/data/scraped_data/
+backend/data/synthetic_data/
+
+# Ignore specific large files
+backend/data/cleaned_training_data.jsonl
+backend/data/final_training_data.jsonl
+backend/data/hybrid_dialogues_test.json
+backend/data/hybrid_dialogues_train.json

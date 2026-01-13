@@ -1,0 +1,44 @@
+[
+  {
+    "dialogue_id": "1",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I want to buy a smartphone"
+      },
+      {
+        "speaker": "assistant",
+        "text": "What's your budget range?"
+      },
+      {
+        "speaker": "user",
+        "text": "Around $500"
+      },
+      {
+        "speaker": "assistant",
+        "text": "I recommend the XYZ model. It has great features for that price."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "2",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I need help with my order"
+      },
+      {
+        "speaker": "assistant",
+        "text": "Sure, what's your order number?"
+      },
+      {
+        "speaker": "user",
+        "text": "ORD-12345"
+      },
+      {
+        "speaker": "assistant",
+        "text": "Your order is being processed and will ship tomorrow."
+      }
+    ]
+  }
+]

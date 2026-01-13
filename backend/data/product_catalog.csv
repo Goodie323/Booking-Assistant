@@ -1,0 +1,75 @@
+product_id,name,category,material,features,use_case,price,description,image_url
+P001,Waterproof Hiking Jacket,Jacket,Gore-Tex,"waterproof;breathable","hiking;rain",89.00,"Full seam sealed jacket suitable for heavy rain.",""
+P002,Trail Running Shoes,Shoes,Mesh,"lightweight;breathable","running;trail",120.00,"Shoes designed for ankle stability and rough terrain.",""
+P003,Trekking Backpack 45L,Backpack,Nylon,"water-resistant;multiple compartments","hiking;travel",75.00,"Comfortable 45L backpack for long-distance trekking.",""
+P004,UV Protection Hat,Hat,Cotton,"UV-blocking;adjustable","sunny weather;outdoor",25.00,"Protects against harsh UV rays during hikes.",""
+P005,Camping Sleeping Bag,Sleeping Bag,Polyester,"warm;compact","camping;cold nights",60.00,"High insulation sleeping bag for cold conditions.",""
+P006,Portable Gas Stove,Camping Gear,Steel,"lightweight;quick-ignition","camping;cooking",55.00,"Durable stove with fast heating.",""
+P007,Hiking Socks,Socks,Wool,"anti-blister;moisture-wicking","hiking;running",15.00,"Breathable socks designed to reduce blisters.",""
+P008,Climbing Rope 30m,Climbing Gear,Nylon,"dynamic rope;high strength","climbing;safety",110.00,"Certified rope ideal for climbing routes.",""
+P009,Insulated Water Bottle,Bottle,Stainless Steel,"heat-retaining;durable","outdoor;travel",30.00,"Keeps liquids hot or cold for long hours.",""
+P010,Waterproof Tent 2-Person,Tent,Polyester,"waterproof;wind-resistant","camping;rainy weather",150.00,"Compact 2-person tent suited for all weather conditions.",""
+name,category,price,brand
+"North Face Summit Series Jacket",jacket,299,North Face
+"Columbia Waterproof Rain Jacket",jacket,129,Columbia
+"Patagonia Fleece Jacket",jacket,149,Patagonia
+"Nike Windrunner Jacket",jacket,99,Nike
+"Adidas Essentials Track Jacket",jacket,65,Adidas
+"Leather Biker Jacket",jacket,189,Generic
+"Denim Jacket Vintage Wash",jacket,79,Levi's
+"Puffer Jacket Black",jacket,89,H&M
+"Waterproof Tent 2-Person",tent,179,Coleman
+"4-Season Backpacking Tent",tent,399,MSR
+"Family Camping Tent 6-Person",tent,249,Ozark Trail
+"Ultralight Hiking Tent",tent,319,Big Agnes
+"Nike Air Max 270 Shoes",shoes,150,Nike
+"Adidas Ultraboost Running Shoes",shoes,180,Adidas
+"New Balance 574 Sneakers",shoes,89,New Balance
+"Converse Chuck Taylor All Star",shoes,60,Converse
+"Salomon Hiking Boots",shoes,149,Salomon
+"iPhone 15 Pro 256GB",phone,1199,Apple
+"Samsung Galaxy S24 Ultra",phone,1299,Samsung
+"Google Pixel 8 Pro",phone,999,Google
+"OnePlus 12 512GB",phone,899,OnePlus
+"MacBook Air M2 13-inch",laptop,1099,Apple
+"Dell XPS 13 Laptop",laptop,1299,Dell
+"Lenovo ThinkPad X1 Carbon",laptop,1399,Lenovo
+"HP Spectre x360",laptop,1199,HP
+"Wireless Noise-Cancelling Headphones",headphones,349,Sony
+"AirPods Pro 2nd Gen",headphones,249,Apple
+"Bose QuietComfort Earbuds",headphones,279,Bose
+"Backpack 30L Hiking",backpack,79,Osprey
+"Leather Travel Backpack",backpack,149,Herschel
+"Smart Watch Series 9",watch,399,Apple
+"Garmin Fenix 7",watch,699,Garmin
+"Wireless Gaming Mouse",accessory,89,Logitech
+"Mechanical Gaming Keyboard RGB",accessory,129,Razer
+"Portable Power Bank 20000mAh",accessory,49,Anker
+"4K Webcam with Microphone",accessory,99,Logitech
+"Yoga Mat Non-Slip",fitness,39,Lululemon
+"Dumbbell Set 5-50lbs",fitness,299,Bowflex
+"Resistance Bands Set",fitness,35,FitSimplify
+"Bluetooth Speaker Waterproof",speaker,129,JBL
+"Smart LED Bulbs 4-Pack",home,59,Philips Hue
+"Robot Vacuum Cleaner",home,399,iRobot
+"Air Fryer 5.8 Quart",home,119,Cosori
+"Insulated Water Bottle 1L",bottle,45,Hydro Flask
+"Winter Beanie Hat",accessory,25,Carhartt
+"Sunglasses Polarized",accessory,149,Ray-Ban
+"Wallet Leather RFID",accessory,59,Bellroy
+"Travel Neck Pillow",travel,29,Cabeau
+"Luggage Set 3-Piece",travel,199,Samsonite
+"Portable Camping Stove",camping,69,Coleman
+"Sleeping Bag -10°C",camping,129,Marmot
+"Trekking Poles Pair",camping,89,Black Diamond
+"Drone with 4K Camera",drone,799,DJI
+"Action Camera 4K Waterproof",camera,399,GoPro
+"Mirrorless Camera Kit",camera,1299,Sony
+"Wireless Charger Stand",accessory,49,Belkin
+"USB-C Hub 7-in-1",accessory,69,Anker
+"Gaming Chair Ergonomic",furniture,299,Secretlab
+"Standing Desk Converter",furniture,349,Vari
+"Blue Light Blocking Glasses",accessory,39,Gunnar
+"Electric Kettle 1.7L",home,49,Cuisinart
+"Coffee Maker 12-Cup",home,89,Mr. Coffee
+"Blender High-Power",home,149,Vitamix

@@ -1,0 +1,12 @@
+service_id,name,type,area,cuisine,stars,price_range,capacity,policies,description
+R001,The Gandhi,Restaurant,center,Indian,NA,cheap,7,"Reservation recommended","Affordable Indian restaurant in the center of town."
+R002,The Tandoori Palace,Restaurant,west,Indian,NA,moderate,4,"Booking required","Popular Indian cuisine venue in the west area."
+R003,Meghna,Restaurant,west,Indian,NA,moderate,2,"Subject to availability","Indian restaurant with a moderate price range."
+R004,The Rice Boat,Restaurant,center,Indian,NA,moderate,5,"Reservation required","Highly-rated Indian restaurant in the center."
+
+H001,Bridge Guest House,Hotel,center,NA,3,moderate,2,"Internet available","3-star guesthouse with parking and internet."
+H002,Hamilton Lodge,Hotel,center,NA,3,moderate,2,"Parking available","Comfortable 3-star guesthouse in the center."
+H003,Hobsons House,Hotel,center,NA,3,moderate,2,"Parking available","Guesthouse with parking and friendly service."
+
+T001,TR1854,Train,NA,NA,NA,8.08,NA,"Ticket required","Train from Cambridge to Kings Lynn departing at 10:11."
+T002,Train2001,Train,NA,NA,NA,8.08,NA,"Ticket required","Train from Cambridge to Stansted Airport departing at 16:40."
