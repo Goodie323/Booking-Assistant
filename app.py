@@ -1,5 +1,6 @@
 import streamlit as st
-from scripts.booking_chat_pipelines import chat
+from backend.scripts.booking_chat_pipeline import chat
+
 
 # Page setup with custom theme
 st.set_page_config(

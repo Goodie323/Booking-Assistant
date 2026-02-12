@@ -6,16 +6,16 @@ from .booking_intent_detector import is_booking_confirmation
 
 
 # Load trained model
-# model_path = "C:/Users/Awoleye/ecom_chatbot/model/my_final_model"
-# tokenizer = T5Tokenizer.from_pretrained(model_path)
-# model = T5ForConditionalGeneration.from_pretrained(model_path)
+model_path = "C:/Users/Awoleye/ecom_chatbot/model/my_final_model"
+tokenizer = T5Tokenizer.from_pretrained(model_path)
+model = T5ForConditionalGeneration.from_pretrained(model_path)
 
-from transformers import T5Tokenizer, T5ForConditionalGeneration
+#from transformers import T5Tokenizer, T5ForConditionalGeneration
 
-HF_MODEL_ID = "SmartBott/my_final_model"
+#HF_MODEL_ID = "SmartBott/my_final_model"
 
-tokenizer = T5Tokenizer.from_pretrained(HF_MODEL_ID)
-model = T5ForConditionalGeneration.from_pretrained(HF_MODEL_ID)
+#tokenizer = T5Tokenizer.from_pretrained(HF_MODEL_ID)
+#model = T5ForConditionalGeneration.from_pretrained(HF_MODEL_ID)
 
 
 
@@ -71,21 +71,26 @@ Ask a helpful follow-up question (e.g., price range, area, time).
 Do NOT make up details.
 """
 
-def chat(user_message):
-    # ✅ Booking confirmation check FIRST
+def chat(user_message, history=None):
+    # Booking confirmation check
     if is_booking_confirmation(user_message):
         ref = generate_reference()
         return f"✅ Your reservation is confirmed! Your reference number is {ref}. You're all set."
 
-    # ✅ Normal flow
+    # Normal flow
     matches = find_matches(user_message)
     prompt = build_context(user_message, matches)
+
+    # Optionally include history in the prompt
+    if history:
+        prompt = f"Conversation history:\n{history}\n\n{prompt}"
 
     inputs = tokenizer(prompt, return_tensors="pt")
     outputs = model.generate(**inputs, max_new_tokens=80)
     reply = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
     return reply
+
 
 if __name__ == "__main__":
     print("\n✅ Booking Assistant Ready\n")
